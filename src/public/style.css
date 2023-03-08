@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Times New Roman", Times, serif; */
+  background-color: rgb(238, 194, 201);
+}
+header {
+  text-align: center;
+  margin: 10px;
+}
+main {
+  background-color: rgba(247, 169, 182, 0.849);
+}
+
+#content {
+  position: relative;
+  z-index: 0;
+}
+
+.socket {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 3;
+}
+
+canvas {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 2;
+}
+
+#threecanvas {
+  z-index: 1;
+  position: absolute;
+}
+
+.p5Canvas {
+  position: absolute;
+  top: 250px;
+}
